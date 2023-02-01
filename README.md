@@ -33,36 +33,40 @@
 
 `greeting("Belal")`
 `greeting("Mo")`
-#Very useful instead of doing print comman again and again.
+#Very useful instead of doing print comma again and again.
 
 # The return statement
 
-# def addition(int1, int2): #inside brackets are variables.
-#     return int1 + int2 # You must enter return so Python knows what to do with what we have given it.
-#
-# print(addition(2, 2))
+`def addition(int1, int2): 
+- inside brackets are variables.`
+
+     `return int1 + int2 # You must enter return so Python knows what to do with what we have given it.`
+
+`print(addition(2, 2))`
 
 #Default Arguments
-#
-# def addition(int1=2, int2=2): #We set the default argument in between brackets, we are saying int1 and
-#  #int2 = value assigned
-#     return int1 + int2
-#
-# print(addition())
-# print(addition(10, 10)) # we can change argument
-# print(addition())
 
-# Multiple Arguments
 
-# def multi_args(*multiargs): #star passes the argument to tuple
-#     print(type(multiargs))
-#
-#     for arg in multiargs:
-#         print(arg)
-#
-# multi_args(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-#
-# print(multi_args(1, 2, 3, 4, 5)) # problem because it is trying to print out function as functions aren't to be printed rather the argument.
+`def addition(int1=2, int2=2):` We set the default argument in between brackets, we are saying int1 and
+  `int2 = value assigned`
+     `return int1 + int2`
+
+ `print(addition())
+ print(addition(10, 10))`  
+ - we can change argument
+ `print(addition())`
+
+### Multiple Arguments
+
+ `def multi_args(*multiargs):` #star passes the argument to tuple
+    `print(type(multiargs))`
+
+     `for arg in multiargs:`
+         `p`rint(arg)`
+
+ `multi_args(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)`
+
+ `print(multi_args(1, 2, 3, 4, 5)) # problem because it is trying to print out function as functions aren't to be printed rather the argument.`
 
 
 # Type Hints
