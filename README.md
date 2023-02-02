@@ -19,8 +19,8 @@
 `print_something()` # more effecient no need to say print we just call the function right away.
 
 
-`def print_something(print_string):`
-     `print(print_string)`
+```def print_something(print_string):`
+     `print(print_string)```
 
 `print_something("this is my variable")`
 
@@ -89,5 +89,5 @@
 3. Remember the return statement or your function will return None.
 4. Keep functions small where possible, to preserve readibility and simplicity.
 5. Use comments in your functions/methods to give instructions on how to use them
-6. Consider using type its to aoid errors when you run your code.
+6. Consider using type ints to avoid errors when you run your code.
 
