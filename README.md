@@ -15,7 +15,7 @@
 
 `def print_something():`  it stands for define. empty prenthesis are required. The colon tells python what is indented is linked to the above function.
      `print("Something has been printed")` # Nothing happens because we haven't put anything to be called.
-#the power comes with the argument in functions
+- the power comes with the argument in functions
 `print_something()` # more effecient no need to say print we just call the function right away.
 
 
@@ -25,7 +25,7 @@
 `print_something("this is my variable")`
 
 `print_something("This is the second time I called this function")`
-#Clear printing of your argument is really important as you can get confused if you haven't done so.
+- Clear printing of your argument is really important as you can get confused if you haven't done so.
 
 
 `def greeting(name):`
@@ -33,9 +33,9 @@
 
 `greeting("Belal")`
 `greeting("Mo")`
-#Very useful instead of doing print comma again and again.
+- Very useful instead of doing print comma again and again.
 
-# The return statement
+### The return statement
 
 `def addition(int1, int2): 
 - inside brackets are variables.`
@@ -44,7 +44,7 @@
 
 `print(addition(2, 2))`
 
-#Default Arguments
+###Default Arguments
 
 
 `def addition(int1=2, int2=2):` We set the default argument in between brackets, we are saying int1 and
@@ -69,25 +69,25 @@
  `print(multi_args(1, 2, 3, 4, 5)) # problem because it is trying to print out function as functions aren't to be printed rather the argument.`
 
 
-# Type Hints
+### Type Hints
 
-# def greeting(name: str): # Good habit if you want certain type of data you input it in your argument.
-#     print("Hello my name is " + name)
-#
-# greeting("Belal")
+`def greeting(name: str):` # Good habit if you want certain type of data you input it in your argument.
+      `print("Hello my name is " + name)`
 
-# def division(num1: int = 5, num2: int = 2) -> float:
-#     return num1 / num2
-#
-# print(division())
+`greeting("Belal")`
+
+`def division(num1: int = 5, num2: int = 2) -> float:`
+     `return num1 / num2`
+
+`print(division())`
 
 
-# Function best practises
+## Function best practises
 
-## Name your functions clearly lower case and underscores
-## All arguments should be clear in their need and where possible include their expected type.
-## Remember the return statement or your function will return None.
-## Keep functions small where possible, to preserve readibility and simplicity.
-## Use comments in your functions/methods to give instructions on how to use them
-## Consider using type its to aoid errors when you run your code.
+1. Name your functions clearly lower case and underscores
+2. All arguments should be clear in their need and where possible include their expected type.
+3. Remember the return statement or your function will return None.
+4. Keep functions small where possible, to preserve readibility and simplicity.
+5. Use comments in your functions/methods to give instructions on how to use them
+6. Consider using type its to aoid errors when you run your code.
 
